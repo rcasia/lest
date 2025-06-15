@@ -12,10 +12,14 @@ url = "https://github.com/rcasia/luxuriest.nvim"
 
 [dependencies]
 argparse = "0.7.1-1"
-# Add your dependencies here
-# `busted = ">=2.0"`
+nlua = "0.3.2-1"
+
+[dependencies.mini-test]
+version = "5bd3b1712183870437e749bca7f35e6ad60d58ab"
+git = "github:echasnovski/mini.test"
 
 [run]
+command = "nlua"
 args = ["src/main.lua"]
 
 [test]
