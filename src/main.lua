@@ -2,7 +2,13 @@ local argparse = require("argparse")
 local mini = require("mini.test")
 
 -- Create an argument parser
-local parser = argparse("script", "An example.")
+local parser = argparse(
+	"lest",
+	[[
+A CLI interface around echasnovski/mini.test
+for Neovim plugins developed as Lux Projects
+]]
+)
 parser:option("--pattern", "Test pattern. Default: '**/*_spec.lua'")
 parser:option("--directory", "Test directory. Default: 'spec'")
 
