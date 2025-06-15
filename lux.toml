@@ -12,12 +12,9 @@ url = "https://github.com/rcasia/lest"
 tag = "v0.1.0"
 
 [dependencies]
-argparse = "0.7.1-1"
+"mini.test" = "0.16.0"
 nlua = "0.3.2-1"
-
-[dependencies.mini-test]
-version = "5bd3b1712183870437e749bca7f35e6ad60d58ab"
-git = "github:echasnovski/mini.test"
+argparse = "0.7.1-1"
 
 [run]
 command = "nlua"
