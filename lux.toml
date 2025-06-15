@@ -7,6 +7,8 @@ summary = ""
 maintainer = "Ricardo Casía"
 labels = [""]
 
+[source]
+url = "https://github.com/rcasia/luxuriest.nvim"
 
 [dependencies]
 argparse = "0.7.1-1"
