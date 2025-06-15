@@ -1,0 +1,22 @@
+{
+  "workspace": {
+    "library": [
+      ".lux/5.1/9372e74762914d7a55cc3492dd1c785cc19399be3e6ed79748900b4dc4987148-mini-test@5bd3b1712183870437e749bca7f35e6ad60d58ab-1/src",
+      ".lux/5.1/d528cd52981564259b873ae3f972f48a19522d775240465725a6434109336b92-argparse@0.7.1-1/src"
+    ]
+  },
+  "runtime": {
+    "version": "LuaJIT",
+    "pathStrict": true
+  },
+  "type": {
+    "checkTableShape": true
+  },
+  "diagnostics.globals": [
+    "vim",
+    "describe",
+    "it",
+    "before_each",
+    "after_each"
+  ]
+}
