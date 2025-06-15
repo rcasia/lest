@@ -9,6 +9,7 @@ labels = [""]
 
 [source]
 url = "https://github.com/rcasia/lest"
+tag = "v0.1.0"
 
 [dependencies]
 argparse = "0.7.1-1"
