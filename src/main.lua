@@ -10,7 +10,7 @@ for Neovim plugins developed as Lux Projects
 ]]
 )
 parser:option("--pattern", "Test pattern. Default: '**/*_spec.lua'")
-parser:option("--directory", "Test directory. Default: 'spec'")
+parser:option("-d --directory", "Test directory. Default: 'spec'")
 
 local args = parser:parse()
 
