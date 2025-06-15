@@ -1,0 +1,5 @@
+describe("Luxuriest", function()
+	it("it works", function()
+		assert(1 == 1)
+	end)
+end)
