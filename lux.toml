@@ -25,3 +25,5 @@ type = "busted"
 
 [build]
 type = "builtin"
+[build.install.bin]
+lest = "src/main.lua"
